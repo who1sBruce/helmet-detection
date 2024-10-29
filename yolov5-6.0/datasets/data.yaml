@@ -1,0 +1,13 @@
+train: ./datasets/train/images
+val: ./datasets/valid/images
+# test: ..datasets/test/images
+
+nc: 2
+names: ['helmet', 'other headwear']
+
+roboflow:
+  workspace: hy-n3ufe
+  project: helmet-detection-al0qh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hy-n3ufe/helmet-detection-al0qh/dataset/1
